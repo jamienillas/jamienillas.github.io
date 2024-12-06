@@ -290,7 +290,7 @@ div#stickyNote
     width: 200px;
     height: 200px;
     right: 20px;
-    top: 650px;
+    top: 450px;
     border-radius: 20px;
     z-index: 9;
     transform: rotate(-10deg);
@@ -418,7 +418,7 @@ div#stickyNote2
     div#stickyNote
     { 
         width: 300px;
-        top: 600px; 
+        top: 400px; 
         font-size: 25px;
     }
     div#stickyNote2
