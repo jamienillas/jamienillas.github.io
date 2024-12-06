@@ -300,6 +300,7 @@ div#stickyNote
     font-family: wonder;
     font-size: 110%;
     text-align: center;
+    display: none;
 }
 div#stickyNote2
 {
@@ -318,6 +319,7 @@ div#stickyNote2
     padding-top: 25px;
     font-size: 20px;
     text-align: center;
+    display: none;
 }
 
 /* CSS for <700 on Web Design page */
@@ -357,6 +359,8 @@ div#stickyNote2
     /* GRAPHICS PAGE */
     img.graphicsphotos { width: 40%; }
     img.landscape { width: 40%; }
+
+    div#stickyNote, #stickyNote2 { display: none;}
 
 }
 
@@ -420,6 +424,7 @@ div#stickyNote2
         width: 300px;
         top: 400px; 
         font-size: 25px;
+        display: none;
     }
     div#stickyNote2
     {
@@ -428,5 +433,6 @@ div#stickyNote2
         bottom: -150px;
         font-size: 25px;
         padding: 30px;
+        display: none;
     }
 }
