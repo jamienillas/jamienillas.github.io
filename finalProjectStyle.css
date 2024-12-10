@@ -282,60 +282,17 @@ a.list:hover
     font-style: italic;
 }
 a.list:active { color: #a7382d; }
-div#stickyNote
-{
-    position: absolute;
-    box-sizing: border-box;
-    background-color: #404a42;
-    width: 200px;
-    height: 200px;
-    right: 20px;
-    top: 450px;
-    border-radius: 20px;
-    z-index: 9;
-    transform: rotate(-10deg);
-    color: #f4f4f4;
-    padding: 20px;
-    padding-top: 40px;
-    font-family: wonder;
-    font-size: 110%;
-    text-align: center;
-    display: none;
-}
-div#stickyNote2
-{
-    position: absolute;
-    box-sizing: border-box;
-    background-color: #e2d8b8;
-    width: 300px;
-    height: 150px;
-    bottom: -350px;
-    right: 10px;
-    border-radius: 20px;
-    z-index: 9;
-    color: #404a42;
-    font-family: wonder;
-    padding: 20px;
-    padding-top: 25px;
-    font-size: 20px;
-    text-align: center;
-    display: none;
-}
 div#betterbudget
 {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    border: 2px solid black;
+    width: 70%;
+    height: 280px;
+    background-color: transparent;
+    border: 4px double black;
     overflow: scroll;
 }
-img.bb { width: 500px; float: left; }
-
-/* CSS for <700 on Web Design page */
-@media(max-width: 700px)
-{
-    div#stickyNote, #stickyNote2 { display: none;}
-}
+img.bb { margin: 0px; padding: 0px; width: 100%;}
 
 /* CSS for medium - 800px to 1299px */
 @media (min-width: 800px)
@@ -355,7 +312,6 @@ img.bb { width: 500px; float: left; }
     div#mainPage { margin-left: 20px;}
     div#aboutme { border-left: solid #404a42;}
 
-
     /* RESUME */
     p.subtitles { font-size: 120%; line-height: normal; }
 
@@ -369,7 +325,8 @@ img.bb { width: 500px; float: left; }
     img.graphicsphotos { width: 40%; }
     img.landscape { width: 40%; }
 
-    div#stickyNote, #stickyNote2 { display: none;}
+    /* WEB DESIGN PAGE */
+    div#betterbudget { height: 460px; }
 
 }
 
@@ -428,20 +385,5 @@ img.bb { width: 500px; float: left; }
 
     /* WEB DESIGN PAGE */
     li { font-size: 20px;}
-    div#stickyNote
-    { 
-        width: 300px;
-        top: 400px; 
-        font-size: 25px;
-        display: none;
-    }
-    div#stickyNote2
-    {
-        width: 250px;
-        height: 250px;
-        bottom: -150px;
-        font-size: 25px;
-        padding: 30px;
-        display: none;
-    }
+    div#betterbudget { height: 550px; }
 }
