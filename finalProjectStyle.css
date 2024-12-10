@@ -321,6 +321,15 @@ div#stickyNote2
     text-align: center;
     display: none;
 }
+div#betterbudget
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid black;
+    overflow: scroll;
+}
+img.bb { width: 50%; float: left; }
 
 /* CSS for <700 on Web Design page */
 @media(max-width: 700px)
